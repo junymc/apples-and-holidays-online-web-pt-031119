@@ -56,7 +56,6 @@ def all_winter_holiday_supplies(holiday_hash)
   supply_array << supply_a
   supply_array << supply_b
   supply_array.flatten
-binding.pry
 
 end
 
