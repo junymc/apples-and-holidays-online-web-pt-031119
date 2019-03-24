@@ -53,10 +53,9 @@ def all_winter_holiday_supplies(holiday_hash)
   supply_array = []
   supply_a = holiday_hash[:winter][:christmas]
   supply_b = holiday_hash[:winter][:new_years]
-  binding.pry
   supply_array << supply_a
   supply_array << supply_b
-
+binding.pry
 
 end
 
