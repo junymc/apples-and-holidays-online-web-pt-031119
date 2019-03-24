@@ -55,6 +55,7 @@ def all_winter_holiday_supplies(holiday_hash)
   supply_b = holiday_hash[:winter][:new_years]
   supply_array << supply_a
   supply_array << supply_b
+  supply_array.flatton
 binding.pry
 
 end
